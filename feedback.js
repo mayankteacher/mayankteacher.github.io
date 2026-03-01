@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
             setTimeout(() => {
                 // Simulate success
-                showFeedbackMessage('Thank you for your feedback! (This is a demo, no actual data sent)', 'success');
+                showFeedbackMessage('Thank you for your feedback! ', 'success');
                 feedbackForm.reset(); // Clear the form
 
                 // Or simulate an error:
