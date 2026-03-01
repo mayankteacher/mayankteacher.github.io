@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     if (feedbackForm) {
         feedbackForm.addEventListener('submit', function(event) {
-            event.preventDefault(); // Stop the form from submitting normally
+            //event.preventDefault(); // Stop the form from submitting normally
 
             // Simulate form submission success/failure
             const name = document.getElementById('name').value;
